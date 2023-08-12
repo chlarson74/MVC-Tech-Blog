@@ -1,13 +1,17 @@
-<div class="text-center">
-  <h2>{{name}}</h2>
-  <p>{{description}}</p>
-  <p>Created by {{user.name}} on {{format_date date_created}}</p>
-  <p>
-    <span for="img" aria-label="money">💲</span>
-    <span class="dollar-amount">{{format_amount needed_funding}}</span>
-    needed
-  </p>
-  <p>
-    <button class="btn btn-primary">Post It</button>
-  </p>
-</div>
+<main>
+        <!-- place an aside with 20% width to complement the article portion -->
+    <aside>
+    <h1>destroyer of words</h1>
+<p>a blog for people who hate persistent data. contribute your thoughts and watch them disappear.</p>        
+    </aside>
+        <!-- placed all the projects inside an article with 80% width -->
+        <article>
+    <form class="new-blog-form">
+    <lable>Title</lable>
+    <input id="blog-title">
+    <lable>Content</lable>
+    <input id="blog-content">
+    <button>destroy</button>
+  </form>
+        </article>
+    </main>

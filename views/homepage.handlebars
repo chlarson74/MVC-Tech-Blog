@@ -1,15 +1,16 @@
-<!-- Loop over each object in the projects array -->
+<!-- Loop over each object in the projects array 
+<<h1>Home Page</h1>
 {{#each projects as |project| }}
 <div class="row mb-4 project">
   <div class="col-md-5">
     <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+      <!-- Call helper function with triple brackets to render the emoji span as HTML 
       {{{get_emoji}}}
       <a href="/project/{{project.id}}">{{project.name}}</a>
     </h2>
     <p>
       <span for="img" aria-label="money">💲</span>
-      <!-- Pass needed_funding value to the helper function -->
+      < Pass needed_funding value to the helper function 
       <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
       needed!
     </p>
@@ -21,4 +22,15 @@
     </p>
   </div>
 </div>
-{{/each}}
+{{/each}}-->
+<main>
+        <!-- place an aside with 20% width to complement the article portion -->
+    <aside>
+    <h1>destroyer of words</h1>
+<p>a blog for people who hate persistent data. contribute your thoughts and watch them disappear.</p>        
+    </aside>
+        <!-- placed all the projects inside an article with 80% width -->
+        <article>
+
+        </article>
+    </main>
